@@ -1,0 +1,51 @@
+html,
+body {
+    overflow-x: hidden;
+    /*overflow-y: hidden; */
+    height: 100%;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#nav-left,
+#nav-right {
+    margin: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#nav-left {
+    float: left;
+}
+
+#nav-right {
+    float: right;
+}
+
+.page-container {
+    height: 100%;
+    position: relative;
+    perspective: 100em;
+}
+
+#page0 {
+    background: red;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#page1 {
+    background: blue;
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
