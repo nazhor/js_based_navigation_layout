@@ -83,10 +83,10 @@ $(document).ready(function(){
     };
 
     //Touch gesture via hammer.js
-    var swipe = new Hammer(document);
-    swipe.on('swiperight swipeleft', function(e) {
+    var let_the_hammer = new Hammer(document);
+    let_the_hammer.on('panright panleft', function(e) {
         e.preventDefault();
-        if (e.type == 'swiperight') {
+        if (e.type == 'panright') {
             navigate(direction.Right);
         } else {
             navigate(direction.Left);
