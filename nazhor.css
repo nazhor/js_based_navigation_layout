@@ -1,7 +1,6 @@
 html,
 body {
     overflow-x: hidden;
-    /*overflow-y: hidden; */
     height: 100%;
     margin: 0px;
 }
@@ -15,8 +14,9 @@ header {
 #nav-left,
 #nav-right {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     cursor: pointer;
+    color: white;
 }
 
 #nav-left {
@@ -42,10 +42,20 @@ header {
 }
 
 #page1 {
-    background: blue;
-    height: 1500px;
+    background: black;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     display: none;
+}
+
+.cube {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25rem;
+    color: white;
 }
