@@ -1,19 +1,3 @@
-// function navleft() {
-//     console.log("left");
-// }
-
-// function navright() {
-//     console.log("right");
-//     $("#face1").velocity({ width: 50 }, "easeInSine");
-//     $("#face2").velocity({ width: 50 }, "easeInSine");
-// }
-// $("#nav-right").click(function() {
-//     console.log("right");
-//     alert( "Handler for .click() called." );
-// });
-
-
-
 $(document).ready(function(){
     var pages = [ "#page0", "#page1" ];
     var currentPage = 0;
